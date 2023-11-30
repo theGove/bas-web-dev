@@ -1,0 +1,87 @@
+[
+  {"label":"Introduction","menu":[
+	{"label":"Introduction","page":"introduction"}  
+  ]},
+
+	{"label":"Lessons","menu":[		
+		{"label":"Unit 1 - Introduction to Database","menu":[
+			{"number":"auto","label":"Introducing SQL","page":"lesson-introduction","format":"markdown"},
+			{"number":"auto","label":"Understanding SQL","page":"lesson-understanding-sql","format":"markdown"},
+			{"number":"auto","label":"Designing Database Tables","page":"lesson-designing-tables","format":"markdown"}
+		]},
+		{"label":"Unit 2 - Retrieving Data from a Table","menu":[
+			{"number":"auto","label":"Retrieving Data","page":"lesson-retrieving-data","format":"markdown"},
+			{"number":"auto","label":"Sorting Retrieved Data","page":"lesson-sorting","format":"markdown"},
+			{"number":"auto","label":"Filtering Records","page":"lesson-basic-filters","format":"markdown"},
+			{"number":"auto","label":"Advanced Data Filtering","page":"lesson-advanced-filters","format":"markdown"},
+			{"number":"auto","label":"Using Wildcard Filtering","page":"lesson-wildcard-filters","format":"markdown"}
+		]},
+		{"label":"Unit 3 - Adding Calculations to Query Results","menu":[	
+			{"number":"auto","label":"Creating Calculated Fields","page":"lesson-calculated-fields","format":"markdown"},
+			{"number":"auto","label":"Using Data Manipulation Functions","page":"lesson-inline-functions","format":"markdown"},
+			{"number":"auto","label":"Summarizing Data","page":"lesson-aggregate-functions","format":"markdown"},
+			{"number":"auto","label":"Grouping Data","page":"lesson-grouping","format":"markdown"}
+		]},
+		{"label":"Unit 4 - Retrieving Data from Multiple Tables","menu":[	
+			{"number":"auto","label":"Table Relationships and Cardinality","page":"lesson-table-relationships","format":"markdown"},
+			{"number":"auto","label":"Joining Tables","page":"lesson-joining-tables","format":"markdown"},
+			{"number":"auto","label":"Creating Advanced Joins","page":"lesson-advanced-joins","format":"markdown"}
+		]},
+		{"label":"Unit 5 - Additional Topics for Retrieving Data","menu":[	
+			{"number":"auto","label":"Working with Subqueries","page":"lesson-subqueries","format":"markdown"},
+			{"number":"auto","label":"Combining Queries","page":"lesson-combining-queries","format":"markdown"}
+		]},
+		{"label":"Unit 6 - Building, Maintaining, and Modeling Databases","menu":[
+			{"number":"auto","label":"Creating and Manipulating Tables","page":"lesson-creating-tables","format":"markdown"},
+			{"number":"auto","label":"Inserting Data","page":"lesson-insert","format":"markdown"},
+			{"number":"auto","label":"Updating and Deleting Data","page":"lesson-update-delete","format":"markdown"},
+			{"number":"auto","label":"Database Modeling and Normalization","page":"lesson-normalization","format":"markdown"}
+		]},
+		{"label":"Unit 7 - Advanced Database Topics","menu":[		
+			{"number":"auto","label":"Using Views","page":"lesson-views","format":"markdown"},
+			{"number":"auto","label":"Working with Stored Procedures","page":"lesson-stored-procedures","format":"markdown"},
+			{"number":"auto","label":"Managing Transaction Processing","page":"lesson-transactions","format":"markdown"},
+			{"number":"auto","label":"Using Cursors","page":"lesson-cursors","format":"markdown"},
+			{"number":"auto","label":"Understanding Advanced SQL Features","page":"lesson-constraints-indexes-triggers","format":"markdown"}
+		]}	
+	]},
+
+  {"label":"Practice","menu":[
+	{"number":1,"label":"Retrieving Data","page":"assignment-retrieve","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Sorting Retrieved Data","page":"assignment-sort","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Filtering Data","page":"assignment-filter","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Advanced Data Filtering","page":"assignment-advanced-filter","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Using Wildcard Filtering","page":"assignment-wildcard","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Advanced Joining","page":"assignment-advanced-joining","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Using Data Manipulating Functions","page":"assignment-inline-functions","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Summarizing Data","page":"assignment-aggregate-functions","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Grouping Data","page":"assignment-grouping","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Combining Queries","page":"assignment-combining-queries","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Restricting Records","page":"assignment-select-where","format":"json", "type":"assessment"},
+	{"number":"auto","label":"Basic Select","page":"assignment-select-intro","format":"json", "type":"assessment", "hidden": true},
+	{"label":"Homework Assessments","menu":[
+		{"number":1,"label":"Retrieving and Sorting Data","page":"assignment-uvu-retrieve-sort","format":"json", "type":"assessment"},
+		{"number":"auto","label":"Filtering Data","page":"assignment-uvu-filter","format":"json", "type":"assessment"},
+		{"number":"auto","label":"Advanced Filtering","page":"assignment-uvu-advanced-filter","format":"json", "type":"assessment"},
+		{"number":"auto","label":"Calculations and In-line Functions","page":"assignment-uvu-calcs-functions","format":"json", "type":"assessment"},
+		{"number":"auto","label":"Grouping","page":"assignment-uvu-grouping","format":"json", "type":"assessment"},
+		{"number":"auto","label":"Joins","page":"assignment-uvu-joins","format":"json", "type":"assessment"},
+		{"number":"auto","label":"Advanced Joins","page":"assignment-uvu-advanced-joins","format":"json", "type":"assessment"},
+		{"number":"auto","label":"Midterm Exam 1","page":"assignment-uvu-midterm1","format":"json", "type":"assessment"}
+	]}
+  ]},
+
+  {"label":"Tools","menu":[
+	{"label":"Query Editor","type":"javascript","page":"query_editor"},
+	{"label":"Tutorials","type":"javascript","page":"tutorials"}
+  ]},
+  {"label":"System","hidden":true,"menu":[
+	{"label":"User Login","page":"login-user","hidden":false},
+	{"label":"Subscriptions","page":"subscriptions","hidden":false},
+	{"label":"Direct Configuration","page":"config", "pane":"tool","hidden":false},
+	{"label":"Settings","page":"setup-wizard", "pane":"tool","hidden":false}
+  ]}
+
+]
+
+
